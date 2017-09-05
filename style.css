@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(51, 51, 51);
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+/* CLASSES */
+
+.top-bar {
+  margin: 20px auto;
+  height: 210px;
+  width: 75%;
+  position: relative;
+  background-color: red;
+}
+.a {
+  display: inline-flex;
+  margin: 20px;
+  position: relative;
+  border-radius: 50%;
+  background: rgb(57, 53, 57);
+}
+.b {
+  background: rgb(57, 53, 57);
+  display: inline-block;
+  height: 160px;
+  width: auto;
+  margin: 25px;
+  position: absolute;
+
+}
+.b p, .b h3 {
+  color: white;
+  margin: 10px;
+}
+.section {
+  display: inline-flex;
+  height: auto;
+  width: 100%;
+  margin: 10px auto;
+}
+.section img {
+  margin: auto;
+  height: 720px;
+  position: relative;
+  width: auto;
+}
+
+/* IDs */
+
+#Portrait {
+  border-radius: 50%;
+}
